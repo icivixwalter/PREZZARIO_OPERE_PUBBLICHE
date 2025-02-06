@@ -13,8 +13,8 @@ git_OpenGitHub.bat
 git_PULL.BAT
 git_STATUS.BAT
 git_STATUS+ADD+COMMIT+PUSH.BAT
-Project_IMPEGNI_DI_SPESA.sublime-project
-Project_IMPEGNI_DI_SPESA.sublime-workspace
+Project_PREZZARIO_OPERE_PUBBLICHE.sublime-project
+Project_PREZZARIO_OPERE_PUBBLICHE.sublime-workspace
 ZIP_7ZIP_________________________________________________________________ZZ.txt
 ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
 Zip_N70____________________________________________CRIPTA_DECODIFICA.txt

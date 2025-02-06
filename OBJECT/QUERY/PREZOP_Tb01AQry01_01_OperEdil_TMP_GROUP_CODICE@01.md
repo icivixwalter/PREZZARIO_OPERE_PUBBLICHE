@@ -1,0 +1,17 @@
+PREZOP_Tb01AQry01_01_OperEdil_TMP_GROUP_CODICE@01.md
+
+	NOTE
+		query che estrae il gruppo
+
+	SCHEMA
+
+				
+				SELECT 
+					PREZOP_Tb01AQry01_01_OperEdil_TMP.CAT, PREZOP_Tb01AQry01_01_OperEdil_TMP.COD_GROUP_S
+						FROM 
+					PREZOP_Tb01AQry01_01_OperEdil_TMP
+						GROUP BY 
+
+						PREZOP_Tb01AQry01_01_OperEdil_TMP.CAT, PREZOP_Tb01AQry01_01_OperEdil_TMP.COD_GROUP_S
+					HAVING (((PREZOP_Tb01AQry01_01_OperEdil_TMP.COD_GROUP_S)="1"))
+					WITH OWNERACCESS OPTION;

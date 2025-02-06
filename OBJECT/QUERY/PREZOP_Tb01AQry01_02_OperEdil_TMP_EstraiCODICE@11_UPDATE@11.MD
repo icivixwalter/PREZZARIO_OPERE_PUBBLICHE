@@ -1,4 +1,4 @@
-PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1101_UPDATE_11.MD
+PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@11_UPDATE@11.MD
 
 	Note
 		query di aggiornamento CAMPO CODICE GRUPPO.

@@ -1,6 +1,7 @@
-PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1801.md
+PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@08.md
 
-		NOTE
+
+	NOTE
 
 
 	SCHEMA
@@ -9,14 +10,19 @@ PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1801.md
 				PREZOP_Tb01A_OperEdil_TMP.COD, 
 				PREZOP_Tb01A_OperEdil_TMP.DESCR, 
 				PREZOP_Tb01A_OperEdil_TMP.TIPO, 
-				PREZOP_Tb01A_OperEdil_TMP.[IMP], 
+				PREZOP_Tb01A_OperEdil_TMP.[IMP],
+
+				"campi di servizio-->" AS TXT01, 
 				PREZOP_Tb01A_OperEdil_TMP.NRO_i, 
 				PREZOP_Tb01A_OperEdil_TMP.RIGHE_VUOTE_s, 
+				PREZOP_Tb01A_OperEdil_TMP.COD_GROUP_S, 
 				PREZOP_Tb01A_OperEdil_TMP.COD_S
+			
+
 				FROM 
 				PREZOP_Tb01A_OperEdil_TMP
-				WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD) Like "18")) 
+				WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "8")) 
 				OR 
-				(((PREZOP_Tb01A_OperEdil_TMP.COD) Like "18.0*"))
+				(((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "8.0*"))
 				ORDER BY PREZOP_Tb01A_OperEdil_TMP.NRO_i 
 				WITH OWNERACCESS OPTION;

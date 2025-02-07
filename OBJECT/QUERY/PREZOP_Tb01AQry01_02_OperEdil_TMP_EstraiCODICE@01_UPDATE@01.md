@@ -10,7 +10,7 @@ PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@01_UPDATE@01.MD
 			PREZOP_Tb01A_OperEdil_TMP 
 				SET 
 				PREZOP_Tb01A_OperEdil_TMP.COD_GROUP_S = "1"
-				WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD) Like "1" 
+				WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "1" 
 				Or 
-				(PREZOP_Tb01A_OperEdil_TMP.COD) Like "1.0*"))
+				(PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "1.0*"))
 				WITH OWNERACCESS OPTION;

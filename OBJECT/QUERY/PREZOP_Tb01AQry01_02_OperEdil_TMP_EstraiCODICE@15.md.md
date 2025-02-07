@@ -4,6 +4,7 @@ PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@15.md
 
 
 		SCHEMA
+				
 				SELECT 
 						PREZOP_Tb01A_OperEdil_TMP.CAT, 
 						PREZOP_Tb01A_OperEdil_TMP.COD, 
@@ -21,9 +22,9 @@ PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@15.md
 						FROM 
 						
 							PREZOP_Tb01A_OperEdil_TMP
-							WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD) Like "15")) 
+							WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "15")) 
 							OR 
-							(((PREZOP_Tb01A_OperEdil_TMP.COD) Like "15.0*"))
+							(((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "15.0*"))
 							ORDER BY PREZOP_Tb01A_OperEdil_TMP.NRO_i 
 							WITH OWNERACCESS OPTION;
 

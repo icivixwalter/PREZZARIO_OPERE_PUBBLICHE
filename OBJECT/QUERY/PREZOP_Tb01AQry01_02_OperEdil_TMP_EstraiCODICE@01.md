@@ -18,8 +18,8 @@ PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCODICE@01.md
 				PREZOP_Tb01A_OperEdil_TMP.COD_S
 				FROM
 				PREZOP_Tb01A_OperEdil_TMP
-				WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD) Like "1")) 
+				WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "1")) 
 				OR 
-				(((PREZOP_Tb01A_OperEdil_TMP.COD) Like "1.0*"))
+				(((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "1.0*"))
 				ORDER BY PREZOP_Tb01A_OperEdil_TMP.NRO_i 
 				WITH OWNERACCESS OPTION;

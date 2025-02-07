@@ -1,11 +1,12 @@
-PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@12.md
+PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@09.md
 
 		NOTE
 
 
 	SCHEMA
-		
-			SELECT 
+
+
+				SELECT 
 						PREZOP_Tb01A_OperEdil_TMP.CAT, 
 						PREZOP_Tb01A_OperEdil_TMP.COD, 
 						PREZOP_Tb01A_OperEdil_TMP.DESCR, 
@@ -22,9 +23,9 @@ PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@12.md
 						FROM 
 						
 							PREZOP_Tb01A_OperEdil_TMP
-							WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "12")) 
+							WHERE (((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "9")) 
 							OR 
-							(((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "12.0*"))
+							(((PREZOP_Tb01A_OperEdil_TMP.COD_S) Like "9.0*"))
 							ORDER BY PREZOP_Tb01A_OperEdil_TMP.NRO_i 
 							WITH OWNERACCESS OPTION;
 

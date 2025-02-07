@@ -31,10 +31,20 @@
 
    2025.02.06=NOME_QUERY
             cambiare il codice numerico delle QUERY che devono essere i
-            identificate con il codice @00.
+            identificate con il Codice----> @00....(01,02...)
 
 
 
+   2025.02.07=CREATO_MODULO_VBA_PER_POPOLARE_TMP
+      Note 
+         ho creato un modulo per popolare la tabella tmp CON LA 
+         SEGUENTE DENOMINAZIONE:
+            
+            PREZOP_Tb01A_OperEdil_TMP_Mdl01_CaricaDati
+
+         CODICE DI ESTRAZIONE
+            Codice----> PREZOP_Tb01A_OperEdil_TMP 
+            Codice----> PREZOP_Tb01A_OperEdil_TMP_Mdl01 
 
    
 
@@ -44,12 +54,13 @@
          consecutive; siccome avviene il caricamento dei dati dalla tabella
          collegata xls sulla tabella tmp, le operazioni sono distinte con questo codice
          numerato e descrizione:
-            OperEdil_TMP 
+            PREZOP_Tb01A_OperEdil_TMP.xx=....  
 
 
-      OperEdil_TMP.01=DELETE_TMP
-         cancella i dati sulla tabella tmp PREZOP_Tb01A_OperEdil_TMP  con l'attivazione 
-         della query 
+      '//PREZOP_Tb01A_OperEdil_TMP.01=CANCELLA+CARICAO_DATI _
+         + eseguo le seguenti query per  la _
+         + cancellazione dei dati sulla tabella tmp PREZOP_Tb01A_OperEdil_TMP   _
+         + caricamento dei dati nella tab tmp 
 
 
 

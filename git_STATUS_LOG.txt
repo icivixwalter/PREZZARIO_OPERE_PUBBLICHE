@@ -2,78 +2,8 @@ On branch calcolo
 Your branch is up to date with 'origin/calcolo'.
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   MDB/LLPP_PREZZARIO_Tb01_A.mdb
-	deleted:    OBJECT/ANALISI_PREZZARIO_OOPP.MD
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_01_OperEdil_TMP.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@01.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@01_UPDATE@01.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@09_UPPDATE@09.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@09md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@10.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@10_UPDATE@10.MD
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@11.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@11_UPDATE@11.MD
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@12.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@12_UPDATE@12.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@13.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@13_UPDATE@13.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@14.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@14_UPDATE@14.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@15.md.md
-	modified:   OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@15_UPDATE@15.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1601.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1701.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1801.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_1901.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_2001.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_201.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_2101.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_2201.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_301.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_401.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_501.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_601.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_701.md
-	deleted:    OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EtraiCodici_801.md
-	modified:   OBJECT/XLS/2023/PARTE_A_OPERE_EDILI_2023.xls
-	modified:   Project_PREZZARIO_OPERE_PUBBLICHE.sublime-workspace
-	modified:   git_PULL_LOG.txt
 	modified:   git_STATUS_LOG.txt
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	OBJECT/ANALISI/
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@02.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@02_UPDATE@02.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@03.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@03_UPDATE@03.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@04.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@04_UPDATE@04.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@05.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@05_UPDATE@05.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@06.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@06_UPDATE@06.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@07.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@07_UPDATE@07.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@08.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@08_UPDATE@08.MD
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@09.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@09_UPDATE@09.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@16.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@16_UPDATE@16.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@17.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@17_UPDATE@17.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@18.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@18_UPDATE@18.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@19.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@19_UPDATE@19.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@20.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@20_UPDATE@20.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@21.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@21_UPDATE@21.md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@22_(no).md
-	OBJECT/QUERY/PREZOP_Tb01AQry01_02_OperEdil_TMP_EstraiCODICE@22_UPDATE@22_(no).md
 
 no changes added to commit (use "git add" and/or "git commit -a")

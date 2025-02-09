@@ -16,6 +16,14 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO
 
 @DIR MDB
 
+
+::           ELIMINA LE CARTELLE  CON I PARAMETRI
+::========================================================================================
+:: Elimina le cartelle specificate (se esistono)
+:: /S elimina tutte le sottocartelle e file contenuti
+:: /Q evita la richiesta di conferma
+:: rd /S /Q "[MDB]"
+:: rd /S /Q "[OBJECT]"
  
 	@REM  elimina una directory (RMDIR) + le sottodirectory (/S) senza conferma (/Q)
 	rmdir /s /q "c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\MDB"
@@ -27,8 +35,61 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO
 	@REM  elimina una directory (RMDIR) + le sottodirectory (/S) senza conferma (/Q)
 	rmdir /s /q "c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\OBJECT"
 
-@REM ALLINEO LA REPOSITORY LOCALE CON GITHUB
-	
+
+
+::           ELIMINA I FILE CON I PARAMETRI
+::========================================================================================
+:: Elimina i file specificati
+:: /F forza la cancellazione dei file di sola lettura
+:: /Q evita la richiesta di conferma
+
+@echo --------------------------------------------------------------------
+@echo 				ATTIVO LA ELIMINAZIONE DEI FILE  *** INIZIO ***
+@echo 
+@echo 
+@echo 
+
+del "AA__________________________________________________________________________AA.txt" /F /Q
+del "git_OpenGitHub.bat" /F /Q
+del "git_OPEN_OVERLEAF.BAT" /F /Q
+del "git_PULL.BAT" /F /Q
+del "git_PULL_LOG.txt" /F /Q
+del "git_STATUS+ADD+COMMIT+PUSH.BAT" /F /Q
+del "git_STATUS.BAT" /F /Q
+del "git_STATUS_LOG.txt" /F /Q
+del "Project_PREZZARIO_OPERE_PUBBLICHE.sublime-project" /F /Q
+del "Project_PREZZARIO_OPERE_PUBBLICHE.sublime-workspace" /F /Q
+del "README.md" /F /Q
+del "ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT" /F /Q
+del "ZIP_7ZIP_________________________________________________________________ZZ.txt" /F /Q
+del "Zip_N70_CRIPTA.bat" /F /Q
+del "Zip_N70_DECODIFICA.bat" /F /Q
+del "Zip_N70_ElencoFile.txt" /F /Q
+del "Zip_N70_ElencoFileESCLUSI.txt" /F /Q
+del "Zip_N70_RAR_____________________________________________________________RAR.txt" /F /Q
+del "Zip_N70____________________________________________CRIPTA_DECODIFICA.txt" /F /Q
+del "ZIP_RAR.BAT" /F /Q
+del "Zip_rar_C.bat" /F /Q
+del "Zip_rar_C_GitHub.bat" /F /Q
+del "ZZ__________________________________________________________________________ZZ.txt" /F /Q
+
+@echo 
+@echo 
+@echo 			Operazione completata.   *** FINE ***
+@echo --------------------------------------------------------------------
+
+
+
+
+
+
+
+@echo 		ALLINEO LA REPOSITORY LOCALE CON GITHUB  *** INIZIO ***
+@echo --------------------------------------------------------------------
+@echo 
+@echo 
+@echo 
+
 	@REM Aggiorna le informazioni dal remoto
 	git fetch origin	
 	
@@ -40,7 +101,7 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO
 	
 
 @ECHO  .
-@ECHO  .
+@ECHO  .        *** FINE ***
 @ECHO  .......................................................
 
 

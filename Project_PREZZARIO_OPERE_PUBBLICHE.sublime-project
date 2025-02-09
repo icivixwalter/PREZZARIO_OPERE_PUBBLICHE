@@ -1,8 +1,12 @@
 {
-	"folders":
-	[
-		{
-			"path": ".",
-		},
-	],
+    "folders":
+    [
+        {
+            "path": "c:/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/",
+        }
+    ],
+    "settings": {
+        "tab_size": 3,
+        "translate_tabs_to_spaces": true
+    }
 }

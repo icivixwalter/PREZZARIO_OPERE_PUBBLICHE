@@ -16,12 +16,97 @@
 	"buffers":
 	[
 		{
-			"file": "/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/Project_PREZZARIO_OPERE_PUBBLICHE.sublime-project",
+			"contents": "PAGINE_Frm01_S01_ELENCO_PAGINE\n\nPREZOP_Tb01AFrm01_01_OperEdil_TMP",
 			"settings":
 			{
-				"buffer_size": 250,
+				"buffer_size": 65,
+				"line_ending": "Windows",
+				"name": "PAGINE_Frm01_S01_ELENCO_PAGINE"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAHgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAACAAAAAAAAAAPgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AgAAACAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABBAAAAAAAAAB4AAABQQUdJTkVfRnJtMDFfUzAxX0VMRU5DT19QQUdJTkU",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAA+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "Fr,"
+					},
+					"AwAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC4AAAAAAAAALgAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "m"
+					},
+					"AQAAAC4AAAAAAAAALwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					3,
+					"right_delete",
+					null,
+					"AwAAAC8AAAAAAAAALwAAAAAAAAABAAAAUS8AAAAAAAAALwAAAAAAAAABAAAAci8AAAAAAAAALwAAAAAAAAABAAAAeQ",
+					"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT/QUERY/PREZOP_Tb01AQry01_01_OperEdil_TMP.md",
+			"settings":
+			{
+				"buffer_size": 720,
 				"line_ending": "Windows"
-			}
+			},
+			"undo_stack":
+			[
+			]
 		}
 	],
 	"build_system": "",
@@ -84,10 +169,15 @@
 	},
 	"expanded_folders":
 	[
-		"/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE"
+		"/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE",
+		"/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT",
+		"/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT/ANALISI",
+		"/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT/QUERY"
 	],
 	"file_history":
 	[
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT/QUERY/XLS_PARTE_A_Qry01_01_ESTRAZIONE.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT/QUERY/XLS_PARTE_A_Qry01_02_INSERT_ESTRAZIONE.md",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/Project_PREZZARIO_OPERE_PUBBLICHE.sublime-project",
 		"/c/Casa/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS_OGGETTI/MSYS/README.md",
 		"/c/Casa/LINGUAGGI/ACCESS/PROGETTI_MDB/MSYS_OGGETTI/MSYS/Zip_N70_ElencoFile.txt",
@@ -213,9 +303,7 @@
 		"/C/CASA/CDM/GE_COND/ANAGR/ANAGR_ANALISI/ANAGR_TB04_PEC_EMAIL.md",
 		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/Lotto_Progetto/Lotto_Progetto.md",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio",
-		"/C/Users/walter.rossi/Desktop/FF Documento Progettuale Prot 0076218030.txt",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.md",
-		"/C/Users/walter.rossi/Desktop/Documento1.txt"
+		"/C/Users/walter.rossi/Desktop/FF Documento Progettuale Prot 0076218030.txt"
 	],
 	"find":
 	{
@@ -393,12 +481,41 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/Project_PREZZARIO_OPERE_PUBBLICHE.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								32
+							]
+						],
+						"settings":
+						{
+							"auto_name": "PAGINE_Frm01_S01_ELENCO_PAGINE",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/c/Gestioni/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/PREZZARIO_OPERE_PUBBLICHE/OBJECT/QUERY/PREZOP_Tb01AQry01_01_OperEdil_TMP.md",
 					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 250,
+						"buffer_size": 720,
 						"regions":
 						{
 						},
@@ -406,14 +523,14 @@
 						[
 							[
 								0,
-								0
+								33
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

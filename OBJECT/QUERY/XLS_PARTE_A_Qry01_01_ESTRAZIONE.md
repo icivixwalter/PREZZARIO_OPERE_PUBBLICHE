@@ -1,0 +1,28 @@
+XLS_PARTE_A_Qry01_01_ESTRAZIONE.md
+
+   Note
+      estrazione query xls tmp.
+
+
+
+
+
+
+
+
+
+
+
+   SELECT 
+      Trim([CAT]) AS CAT_C, 
+      Trim([COD]) AS COD_C, 
+      XLS_PARTE_A_OPERE_EDILI_2023.DESCR, 
+      Trim([TIPO]) AS TIPO_c, 
+      XLS_PARTE_A_OPERE_EDILI_2023.[iMP] AS IMP_C, 
+      XLS_PARTE_A_OPERE_EDILI_2023.NRO, 
+      XLS_PARTE_A_OPERE_EDILI_2023.RIGHE_VUOTE
+      FROM 
+      XLS_PARTE_A_OPERE_EDILI_2023
+      ORDER BY 
+      XLS_PARTE_A_OPERE_EDILI_2023.NRO
+      WITH OWNERACCESS OPTION;

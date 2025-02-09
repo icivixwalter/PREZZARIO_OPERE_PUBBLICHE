@@ -56,6 +56,9 @@ DIR
 :: Aggiorna la schermata di Windows Explorer
 :: Il seguente comando forza un refresh della shell di Windows
 powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 
 
 @echo 				  *** FINE ***
@@ -114,6 +117,10 @@ del "ZZ_________________________________________________________________________
 
 :: Aggiorna la schermata di Windows Explorer
 :: Il seguente comando forza un refresh della shell di Windows
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 
 

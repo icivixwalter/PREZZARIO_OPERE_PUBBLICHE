@@ -1,3 +1,11 @@
+@REM CANCELLA MDB OBJEC E PROJECT
+@REM .
+@REM . PARAMETRI DA SOSTITUIRE 
+@REM . FILE ----->  Project_PREZZARIO_OPERE_PUBBLICHE
+@REM . PATH ----->  c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\
+@REM .
+
+
 ECHO OFF
 
 @REM  cd.. devi posizionarti su git_desktop
@@ -24,6 +32,13 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO
 :: /Q evita la richiesta di conferma
 :: rd /S /Q "[MDB]"
 :: rd /S /Q "[OBJECT]"
+
+@echo 				ATTIVO LA ELIMINAZIONE DELLE CARTELLE  *** INIZIO ***
+@echo --------------------------------------------------------------------
+@echo 
+@echo 
+@echo ELIMINO LA CARTELLA MDB E OBJECT
+
  
 	@REM  elimina una directory (RMDIR) + le sottodirectory (/S) senza conferma (/Q)
 	rmdir /s /q "c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\MDB"
@@ -34,6 +49,14 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO
 
 	@REM  elimina una directory (RMDIR) + le sottodirectory (/S) senza conferma (/Q)
 	rmdir /s /q "c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\OBJECT"
+
+
+@echo 				  *** FINE ***
+@echo --------------------------------------------------------------------
+
+@ECHO  pausa  per consentire il commit
+@ECHO
+@TIMEOUT /T 5 /NOBREAK
 
 
 
@@ -78,6 +101,9 @@ del "ZZ_________________________________________________________________________
 @echo 			Operazione completata.   *** FINE ***
 @echo --------------------------------------------------------------------
 
+@ECHO  pausa  per consentire il commit
+@ECHO
+@TIMEOUT /T 5 /NOBREAK
 
 
 

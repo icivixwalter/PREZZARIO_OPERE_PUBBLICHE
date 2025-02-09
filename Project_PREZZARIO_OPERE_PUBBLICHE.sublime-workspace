@@ -15,6 +15,60 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
+			"settings":
+			{
+				"buffer_size": 5566,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "9"
+					},
+					"AQAAAKQIAAAAAAAApQgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApAgAAAAAAACkCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"right_delete",
+					null,
+					"AQAAAKUIAAAAAAAApQgAAAAAAAABAAAANQ",
+					"AQAAAAAAAAABAAAApQgAAAAAAAClCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					3,
+					"swap_line_down",
+					null,
+					"BgAAAOgPAAAAAAAAFRAAAAAAAAAAAAAAfA8AAAAAAAB8DwAAAAAAAC0AAAA6OiBBZ2dpb3JuYSBsYSBzY2hlcm1hdGEgZGkgV2luZG93cyBFeHBsb3JlcgpYEAAAAAAAAIUQAAAAAAAAAAAAALsPAAAAAAAAuw8AAAAAAAAtAAAAOjogQWdnaW9ybmEgbGEgc2NoZXJtYXRhIGRpIFdpbmRvd3MgRXhwbG9yZXIKyBAAAAAAAAD1EAAAAAAAAAAAAAArEAAAAAAAACsQAAAAAAAALQAAADo6IEFnZ2lvcm5hIGxhIHNjaGVybWF0YSBkaSBXaW5kb3dzIEV4cGxvcmVyCg",
+					"AQAAAAAAAAABAAAAfA8AAAAAAAB8DwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					2,
+					"swap_line_up",
+					null,
+					"BAAAAJsQAAAAAAAAmxAAAAAAAAAtAAAAOjogQWdnaW9ybmEgbGEgc2NoZXJtYXRhIGRpIFdpbmRvd3MgRXhwbG9yZXIKKxAAAAAAAABYEAAAAAAAAAAAAAArEAAAAAAAACsQAAAAAAAALQAAADo6IEFnZ2lvcm5hIGxhIHNjaGVybWF0YSBkaSBXaW5kb3dzIEV4cGxvcmVyCrsPAAAAAAAA6A8AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmxAAAAAAAACbEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					4,
+					"swap_line_up",
+					null,
+					"CAAAAHwPAAAAAAAAfA8AAAAAAACdAgAAOjogSWwgc2VndWVudGUgY29tYW5kbyBmb3J6YSB1biByZWZyZXNoIGRlbGxhIHNoZWxsIGRpIFdpbmRvd3MKOjogQWdnaW9ybmEgbGEgc2NoZXJtYXRhIGRpIFdpbmRvd3MgRXhwbG9yZXIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9Igpwb3dlcnNoZWxsLmV4ZSAtY29tbWFuZCAiKE5ldy1PYmplY3QgLUNvbU9iamVjdCBTaGVsbC5BcHBsaWNhdGlvbikuV2luZG93cygpIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5SZWZyZXNoKCkgfSIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9IgoKew8AAAAAAAAYEgAAAAAAAAAAAAB7DwAAAAAAAHsPAAAAAAAAnQIAADo6IElsIHNlZ3VlbnRlIGNvbWFuZG8gZm9yemEgdW4gcmVmcmVzaCBkZWxsYSBzaGVsbCBkaSBXaW5kb3dzCjo6IEFnZ2lvcm5hIGxhIHNjaGVybWF0YSBkaSBXaW5kb3dzIEV4cGxvcmVyCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9Igpwb3dlcnNoZWxsLmV4ZSAtY29tbWFuZCAiKE5ldy1PYmplY3QgLUNvbU9iamVjdCBTaGVsbC5BcHBsaWNhdGlvbikuV2luZG93cygpIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5SZWZyZXNoKCkgfSIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9Igpwb3dlcnNoZWxsLmV4ZSAtY29tbWFuZCAiKE5ldy1PYmplY3QgLUNvbU9iamVjdCBTaGVsbC5BcHBsaWNhdGlvbikuV2luZG93cygpIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5SZWZyZXNoKCkgfSIKCmQPAAAAAAAAARIAAAAAAAAAAAAAZA8AAAAAAABkDwAAAAAAAJ0CAAA6OiBJbCBzZWd1ZW50ZSBjb21hbmRvIGZvcnphIHVuIHJlZnJlc2ggZGVsbGEgc2hlbGwgZGkgV2luZG93cwo6OiBBZ2dpb3JuYSBsYSBzY2hlcm1hdGEgZGkgV2luZG93cyBFeHBsb3Jlcgpwb3dlcnNoZWxsLmV4ZSAtY29tbWFuZCAiKE5ldy1PYmplY3QgLUNvbU9iamVjdCBTaGVsbC5BcHBsaWNhdGlvbikuV2luZG93cygpIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5SZWZyZXNoKCkgfSIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9Igpwb3dlcnNoZWxsLmV4ZSAtY29tbWFuZCAiKE5ldy1PYmplY3QgLUNvbU9iamVjdCBTaGVsbC5BcHBsaWNhdGlvbikuV2luZG93cygpIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5SZWZyZXNoKCkgfSIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCgpeDwAAAAAAAPsRAAAAAAAAAAAAAF4PAAAAAAAAXg8AAAAAAACdAgAAOjogSWwgc2VndWVudGUgY29tYW5kbyBmb3J6YSB1biByZWZyZXNoIGRlbGxhIHNoZWxsIGRpIFdpbmRvd3MKOjogQWdnaW9ybmEgbGEgc2NoZXJtYXRhIGRpIFdpbmRvd3MgRXhwbG9yZXIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9Igpwb3dlcnNoZWxsLmV4ZSAtY29tbWFuZCAiKE5ldy1PYmplY3QgLUNvbU9iamVjdCBTaGVsbC5BcHBsaWNhdGlvbikuV2luZG93cygpIHwgRm9yRWFjaC1PYmplY3QgeyAkXy5SZWZyZXNoKCkgfSIKcG93ZXJzaGVsbC5leGUgLWNvbW1hbmQgIihOZXctT2JqZWN0IC1Db21PYmplY3QgU2hlbGwuQXBwbGljYXRpb24pLldpbmRvd3MoKSB8IEZvckVhY2gtT2JqZWN0IHsgJF8uUmVmcmVzaCgpIH0iCnBvd2Vyc2hlbGwuZXhlIC1jb21tYW5kICIoTmV3LU9iamVjdCAtQ29tT2JqZWN0IFNoZWxsLkFwcGxpY2F0aW9uKS5XaW5kb3dzKCkgfCBGb3JFYWNoLU9iamVjdCB7ICRfLlJlZnJlc2goKSB9IgoKNw8AAAAAAADUEQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfA8AAAAAAAAZEgAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -384,6 +438,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2054,
+								2054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2750.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],

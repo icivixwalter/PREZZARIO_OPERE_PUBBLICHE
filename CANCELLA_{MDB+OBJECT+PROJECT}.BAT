@@ -66,7 +66,7 @@ powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | F
 
 @ECHO  pausa  per consentire il commit
 @ECHO
-@TIMEOUT /T 5 /NOBREAK
+@TIMEOUT /T 9 /NOBREAK
 
 
 
@@ -111,17 +111,17 @@ del "ZZ_________________________________________________________________________
 @echo 			Operazione completata.   *** FINE ***
 @echo --------------------------------------------------------------------
 
+:: Il seguente comando forza un refresh della shell di Windows
+:: Aggiorna la schermata di Windows Explorer
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+
 @ECHO  pausa  per consentire il commit
 @ECHO
 @TIMEOUT /T 5 /NOBREAK
-
-:: Aggiorna la schermata di Windows Explorer
-:: Il seguente comando forza un refresh della shell di Windows
-powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
-powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
-powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
-powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
-powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 
 
 

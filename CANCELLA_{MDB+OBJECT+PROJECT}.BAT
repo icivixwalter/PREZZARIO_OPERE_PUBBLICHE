@@ -151,6 +151,9 @@ powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | F
 :: Aggiorna la schermata di Windows Explorer
 :: Il seguente comando forza un refresh della shell di Windows
 powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 
 
 
@@ -162,5 +165,5 @@ powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | F
 @ECHO
 @ECHO  pausa  per consentire il commit
 @ECHO
-@TIMEOUT /T 2 /NOBREAK
+@TIMEOUT /T 5 /NOBREAK
 

@@ -1,5 +1,7 @@
 @REM FILE: git_STATUS+ADD+COMMIT+PUSH.BAT
-
+@REM  PARAMETRI DA MODIFICARE
+@REM  01) PATH ---->   c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\
+@REM  01) FILE ---->   _PREZZARIO
 
 @echo off
 cls
@@ -58,18 +60,18 @@ ECHO.
 
 :: Esegui git add, commit e push
 git add .
-git commit -m "%today%_aggiornamento_IMPEGNI"
+git commit -m "%today%_aggiornamento_PREZZARIO"
 
 :: Pausa per consentire il commit
 ECHO.
-ECHO pausa di 5 secondi per consentire il commit
+ECHO pausa  per consentire il commit
 TIMEOUT /T 5 /NOBREAK
 
 git push
 
 :: Pausa finale
 ECHO.
-ECHO pausa di 5 secondi per il controllo
-TIMEOUT /T 10 /NOBREAK
+ECHO pausa  per il controllo
+TIMEOUT /T 5 /NOBREAK
 
 :: Fine dello script

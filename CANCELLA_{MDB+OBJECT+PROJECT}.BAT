@@ -50,6 +50,13 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO
 	@REM  elimina una directory (RMDIR) + le sottodirectory (/S) senza conferma (/Q)
 	rmdir /s /q "c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\PREZZARIO_OPERE_PUBBLICHE\OBJECT"
 
+DIR
+
+
+:: Aggiorna la schermata di Windows Explorer
+:: Il seguente comando forza un refresh della shell di Windows
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
+
 
 @echo 				  *** FINE ***
 @echo --------------------------------------------------------------------
@@ -105,6 +112,9 @@ del "ZZ_________________________________________________________________________
 @ECHO
 @TIMEOUT /T 5 /NOBREAK
 
+:: Aggiorna la schermata di Windows Explorer
+:: Il seguente comando forza un refresh della shell di Windows
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 
 
 
@@ -129,6 +139,11 @@ del "ZZ_________________________________________________________________________
 @ECHO  .
 @ECHO  .        *** FINE ***
 @ECHO  .......................................................
+
+
+:: Aggiorna la schermata di Windows Explorer
+:: Il seguente comando forza un refresh della shell di Windows
+powershell.exe -command "(New-Object -ComObject Shell.Application).Windows() | ForEach-Object { $_.Refresh() }"
 
 
 
